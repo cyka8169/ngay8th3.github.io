@@ -1,0 +1,166 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background-color: #ff6f91;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Section chung */
+section {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2 {
+    color: #ff6f91;
+    border-bottom: 2px solid #ff6f91;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 0.8rem 0;
+    font-size: 1.1rem;
+}
+
+/* Hình ảnh */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+footer h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+/* Media Queries cho responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    section h3 {
+        font-size: 1.3rem;
+    }
+
+    section p, ul li {
+        font-size: 1rem;
+    }
+
+    footer h2 {
+        font-size: 1.8rem;
+    }
+
+    footer h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 1.5rem 0.5rem;
+    }
+
+    header h1 {
+        font-size: 1 Dale.5rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    section {
+        padding: 1.5rem 0.5rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section h3 {
+        font-size: 1.2rem;
+    }
+
+    section p, ul li {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        padding: 1.5rem 0.5rem;
+    }
+
+    footer h2 {
+        font-size: 1.5rem;
+    }
+
+    footer h3 {
+        font-size: 1.2rem;
+    }
+}
