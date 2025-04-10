@@ -91,6 +91,9 @@ footer h3 {
     font-size: 1.5rem;
     margin: 1rem 0;
 }
+::selection{
+    background-color: pink;
+}
 
 /* Media Queries cho responsive */
 @media (max-width: 768px) {
